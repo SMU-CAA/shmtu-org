@@ -1,5 +1,5 @@
-# shmtu-org
+# SHMTU ORG
 
-To get a subdomain for your own site.
+To get a subdomain (shmtu.org) for your own site.
 
-Pull request welcome.
+🌈 Pull request welcome.
