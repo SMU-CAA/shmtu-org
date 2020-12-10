@@ -14,11 +14,13 @@
         },
         {
             "name": "www",
+            "description": "首页",
             "type": "A",
             "value": "1.1.1.1"
         },
         {
             "name": "@",
+            "description": "首页",
             "type": "A",
             "value": "1.1.1.1"
         }
