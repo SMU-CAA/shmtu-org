@@ -22,7 +22,7 @@ Just append lines to `dns_records.yml` file as follows:
   - `AAAA`
   - `CNAME` (default)
 
-- `ttl`
+- `ttl` second(s)
   - `1` (default)
   - `120`
   - `300`
@@ -30,7 +30,7 @@ Just append lines to `dns_records.yml` file as follows:
   - `1800`
   - `3600`
 
-- `proxied` by [cloudflare](https://www.cloudflare.com/zh-cn/)
+- `proxied` by [Cloudflare](https://www.cloudflare.com/zh-cn/)
   - `true`
   - `false` (default)
 
