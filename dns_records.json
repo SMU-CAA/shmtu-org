@@ -29,6 +29,12 @@
             "description": "oj system",
             "type": "CNAME",
             "value": "oj.ameakane.com"
+        },
+        {
+            "name":"_acme-challenge.oj"
+            "description": "certbot",
+            "type": "TXT",
+            "value": "svdlYf6Hli0HtpLEJzGaxqYmVp1sU19o05EQN8yy6MM"
         }
     ]
 }
