@@ -1,6 +1,6 @@
 # SHMTU ORG
 
-> 🌈 To get a subdomain for your own site. Pull request welcome.
+🌈 To get a subdomain for your own site. Pull request welcome.
 
 ## Usage
 
