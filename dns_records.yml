@@ -1,24 +1,30 @@
 dns_records:
+
   - name: "@"
     description: 首页
     type: A
     value: 193.122.108.9
+
   - name: www
     description: 首页
     type: A
     value: 193.122.108.9
+
   - name: caa
     description: 计算机学会
     type: A
     value: 193.122.108.9
+
   - name: sts
     description: 英语视听说（内网）
     type: A
     value: 10.64.154.2
+
   - name: oj
     description: oj system
     type: CNAME
     value: oj.ameakane.com
+
   - name: _acme-challenge.oj
     description: certbot
     type: TXT
