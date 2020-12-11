@@ -4,7 +4,14 @@
 
 ## Usage:
 
-Just add on `dns_record.json` file.
+Just append lines to `dns_records.yml` file as follows:
+
+```yaml
+  - name: sub
+    description: example
+    type: A
+    value: 1.1.1.1
+```
 
 Accepted DNS record types:
 - A
