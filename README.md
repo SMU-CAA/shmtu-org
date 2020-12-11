@@ -8,6 +8,7 @@ Just add on `dns_record.json` file.
 
 Accepted DNS record types:
 - A
+- AAAA
 - CNAME
 
 🌈 Pull request welcome.
