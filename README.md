@@ -7,8 +7,8 @@
 Just append lines to `dns_records.yml` file as follows:
 
 ```yaml
-  - name: sub
-    description: example
+  - name: sub.shmtu.org
+    description: demo config
     type: A
     value: 1.1.1.1
     ttl: 1
