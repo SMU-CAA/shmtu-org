@@ -23,6 +23,12 @@
             "description": "首页",
             "type": "A",
             "value": "1.1.1.1"
+        },
+        {
+            "name": "oj",
+            "description": "oj system",
+            "type": "CNAME",
+            "value": "oj.ameakane.com"
         }
     ]
 }
