@@ -1,8 +1,8 @@
 # SHMTU ORG
 
-> 🌍 To get a subdomain for your own site.
+> 🌈 To get a subdomain for your own site. Pull request welcome.
 
-## Usage:
+## Usage
 
 Just append lines to `dns_records.yml` file as follows:
 
@@ -11,13 +11,29 @@ Just append lines to `dns_records.yml` file as follows:
     description: example
     type: A
     value: 1.1.1.1
+    ttl: 1
+    proxied: false
 ```
 
-Accepted DNS record types:
-- A
-- AAAA
-- CNAME
+## Options
 
-🌈 Pull request welcome.
+- `type`
+  - `A`
+  - `AAAA`
+  - `CNAME` (default)
 
-_**Note: No ICP license support in China, so you may not able to access your website if your server's in Mainland China.**_
+- `ttl`
+  - `1` (default)
+  - `120`
+  - `300`
+  - `600`
+  - `1800`
+  - `3600`
+
+- `proxied` by [cloudflare](https://www.cloudflare.com/zh-cn/)
+  - `true`
+  - `false` (default)
+
+## Notes
+
+You are not able to access your website if your server is in Mainland China because of a lack of ICP license.
