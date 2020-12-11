@@ -1,31 +1,43 @@
 dns_records:
 
-  - name: "@"
+  - name: shmtu.org
     description: 首页
     type: A
     value: 193.122.108.9
+    ttl: 1
+    proxied: false
 
-  - name: www
+  - name: www.shmtu.org
     description: 首页
     type: A
     value: 193.122.108.9
+    ttl: 1
+    proxied: false
 
-  - name: caa
+  - name: caa.shmtu.org
     description: 计算机学会
     type: A
     value: 193.122.108.9
+    ttl: 1
+    proxied: false
 
-  - name: sts
+  - name: sts.shmtu.org
     description: 英语视听说（内网）
     type: A
     value: 10.64.154.2
+    ttl: 1
+    proxied: false
 
-  - name: oj
+  - name: oj.shmtu.org
     description: oj system
     type: CNAME
     value: oj.ameakane.com
+    ttl: 1
+    proxied: true
 
-  - name: _acme-challenge.oj
+  - name: _acme-challenge.oj.shmtu.org
     description: certbot
     type: TXT
     value: svdlYf6Hli0HtpLEJzGaxqYmVp1sU19o05EQN8yy6MM
+    ttl: 1
+    proxied: false
