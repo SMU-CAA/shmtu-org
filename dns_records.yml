@@ -34,10 +34,3 @@ dns_records:
     value: oj.ameakane.com
     ttl: 1
     proxied: true
-
-  - name: _acme-challenge.oj.shmtu.org
-    description: certbot
-    type: TXT
-    value: svdlYf6Hli0HtpLEJzGaxqYmVp1sU19o05EQN8yy6MM
-    ttl: 1
-    proxied: false
