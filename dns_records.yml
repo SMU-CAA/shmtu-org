@@ -34,3 +34,10 @@ dns_records:
     value: oj.ameakane.com
     ttl: 1
     proxied: true
+   
+  - name: acm.shmtu.org
+    description: ACM Annoucement
+    type: CNAME
+    value: monohue.github.io
+    ttl: 1
+    proxied: false
