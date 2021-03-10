@@ -41,3 +41,10 @@ dns_records:
     value: monohue.github.io
     ttl: 1
     proxied: false
+
+  - name: wlsy.shmtu.org
+    description: 物理实验（内网）
+    type: A
+    value: 10.81.33.78
+    ttl: 1
+    proxied: false
