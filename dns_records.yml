@@ -48,3 +48,10 @@ dns_records:
     value: 10.81.33.78
     ttl: 1
     proxied: false
+
+  - name: ftp.cie.shmtu.org
+    description: 信息工程学院FTP（内网）
+    type: A
+    value: 10.64.10.59
+    ttl: 1
+    proxied: false
