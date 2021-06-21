@@ -1,19 +1,5 @@
 dns_records:
 
-  - name: shmtu.org
-    description: 首页
-    type: A
-    value: 193.122.108.9
-    ttl: 1
-    proxied: false
-
-  - name: www.shmtu.org
-    description: 首页
-    type: A
-    value: 193.122.108.9
-    ttl: 1
-    proxied: false
-
   - name: caa.shmtu.org
     description: 计算机学会
     type: A
