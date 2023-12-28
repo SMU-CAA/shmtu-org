@@ -1,5 +1,7 @@
 # SHMTU ORG
 
+> ⚠️ The domain name is no longer available.
+
 🌈 To get a subdomain for your own site. Pull request welcome.
 
 ## Usage
